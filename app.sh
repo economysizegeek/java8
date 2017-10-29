@@ -39,11 +39,11 @@ _check_java() {
 
 ### JAVA8 ###
 _build_java8() {
-local VERSION="8u33"
+local VERSION="8u151"
 local BUILD="b05"
 local FILE="ejdk-${VERSION}-fcs-linux-arm-sflt.tar.gz"
 local URL="http://download.oracle.com/otn/java/ejdk/${VERSION}-${BUILD}/${FILE}"
-local FOLDER="ejdk1.8.0_33"
+local FOLDER="ejdk1.8.0_151"
 
 _download_tgz_cookies "${FILE}" "${URL}" "${FOLDER}" cookies.txt
 pushd "target/${FOLDER}/bin"
